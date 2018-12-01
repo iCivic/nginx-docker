@@ -156,7 +156,7 @@ STOPSIGNAL SIGTERM
 CMD ["nginx", "-g", "daemon off;"]
 
 ## ****************************** 参考资料 *****************************************
-## 制作Docker Image: docker build -t idu/nignx:1.0 .
+## 制作Docker Image: docker build -t idu/nginx:1.0 .
 ## docker run  \
 ## -d \
 ## -p 80:80 \
